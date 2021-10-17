@@ -1,0 +1,13 @@
+.service{
+    background-color: rgb(1, 17, 17);
+    color: white;
+    border-radius: 13px
+}
+.service:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+.service img{
+    width: 100%;
+}

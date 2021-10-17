@@ -1,0 +1,44 @@
+[
+    {
+      "id": 1,
+      "name": "Engin Diagnostic",
+      "price": 1500,
+      "descripition": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident impedit veritatis quod eligendi.",
+      "img": "https://i.ibb.co/GVkb7nT/1.jpg"
+    },
+    {
+      "id": 2,
+      "name": "While Aligment",
+      "price": 240,
+      "descripition": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident impedit veritatis quod eligendi.",
+      "img": "https://i.ibb.co/Sr6pfpT/4.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Oil Changing",
+      "price": 500,
+      "descripition": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident impedit veritatis quod eligendi.",
+      "img": "https://i.ibb.co/pjcSK36/3.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Replace tire",
+      "price": 150,
+      "descripition": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident impedit veritatis quod eligendi.",
+      "img": "https://i.ibb.co/RyXPk4S/2.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Wash and Glassing",
+      "price": 320,
+      "descripition": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident impedit veritatis quod eligendi.",
+      "img": " https://i.ibb.co/zRV6qFC/5.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Break Repairing",
+      "price": 700,
+      "descripition": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Provident impedit veritatis quod eligendi.",
+      "img": "https://i.ibb.co/fkfzHQy/6.jpg"
+    }
+  ]
