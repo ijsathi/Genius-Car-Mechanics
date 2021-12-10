@@ -4,12 +4,12 @@ const ManageServices = () => {
     const [services, setServices] = useState([]);
 
     useEffect(() =>{
-        fetch('http://localhost:5000/services')
+        fetch('https://quiet-shore-35361.herokuapp.com/services')
         .then(res=>res.json())
         .then(data=>setServices(data))
     },[]);
     const handleDelete = id =>{
-        const url = `http://localhost:5000/services/${id}`;
+        const url = `https://quiet-shore-35361.herokuapp.com/services/${id}`;
         fetch(url,{
             method:'DELETE'
         })
@@ -26,7 +26,7 @@ const ManageServices = () => {
     }
     return (
         <div>
-            <h1>this is manage</h1>
+            <h1>Manage All Service</h1>
             {
                 services.map(service => <div key={service._id}>
                     <h3>{service.name}</h3>

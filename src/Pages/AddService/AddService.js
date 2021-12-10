@@ -9,7 +9,7 @@ const AddService = () => {
     
     const onSubmit = data =>{
          console.log(data);
-         axios.post('http://localhost:5000/services', data)
+         axios.post('https://quiet-shore-35361.herokuapp.com/services', data)
         .then(res =>{
             if(res.data.insertedId){
                 alert('Added successfully');
@@ -19,7 +19,7 @@ const AddService = () => {
         }
     return (
         <div className='add-service'>
-            <h2>Please Added Service</h2>
+            <h2>Please Added Service </h2>
             
             <form onSubmit={handleSubmit(onSubmit)}>
       <input {...register("name", { required: true, maxLength: 20 })} placeholder='write name' />

@@ -1,0 +1,21 @@
+.f{
+    height: 35vh;
+    background-color: black;
+}
+.menu-bar2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+
+ }
+ .menu-list2{
+     padding-left: 48px;
+ }
+ @media only screen and (max-width:679px) {
+   .menu-bar2{
+      flex-direction: column;
+   }
+   .f{
+       height: 50vh;
+   }
+}

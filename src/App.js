@@ -3,6 +3,7 @@ import './App.css';
 import AuthProvider from './context/AuthProvider';
 import AddService from './Pages/AddService/AddService';
 import Booking from './Pages/Booking/Booking/Booking';
+import Footer from './Pages/Footer/Footer';
 import Home from './Pages/Home/Home/Home';
 import Login from './Pages/Login/Login';
 import ManageServices from './Pages/ManageServices/ManageServices';
@@ -35,12 +36,14 @@ function App() {
           <Route path='/manageServices'>
             <ManageServices></ManageServices>
           </Route>
+          
           <Route path='*'>
             <NotFound></NotFound>
           </Route>
         </Switch>
       </Router>
       </AuthProvider>
+      <Footer></Footer>
     </div>
   );
 }

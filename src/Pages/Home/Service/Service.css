@@ -4,7 +4,8 @@
     border-radius: 13px
 }
 .service:hover{
-    background-color: white;
+    background-color: rgb(243, 231, 231);
+    /* box-shadow: rgb(65, 43, 3); */
     color: black;
     cursor: pointer;
 }
